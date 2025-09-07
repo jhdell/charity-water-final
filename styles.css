@@ -43,6 +43,11 @@ img{display:block;max-width:100%;height:auto}
 .mini-item figcaption{margin-top:.5rem;line-height:1.1;font-weight:800;color:#fff;filter:drop-shadow(0 1px 0 rgba(0,0,0,.25))}
 .mini-equals{font-size:clamp(1.8rem,4.5vw,2.2rem);font-weight:900;color:#fff;line-height:1;filter:drop-shadow(0 1px 0 rgba(0,0,0,.35))}
 
+/* Make only the water-drop a bit smaller */
+.mini-equation.two-up .mini-item:last-of-type .mini-img img {
+width: 72%;
+height: 72%;
+}
 
 /* COPY */
 .hero-copy{text-align:center;margin-inline:auto}
